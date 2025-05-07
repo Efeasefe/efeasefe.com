@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Efe Ersoy
+Efe Ersoy
+Mix & Mastering Engineer
 
 Show Contacts
 
 Email
-richard@example.com
+contact@efeasefe.com
 
 Phone
-+1 (213) 352-2795
++90 (531) ** **
 
 Birthday
-June 23, 1982
+Agu 28, 2007
 
 Location
-Sacramento, California, USA
+İzmir, Egekent
 
 # navbar
 
