@@ -61,27 +61,6 @@ navigationLinks.forEach((link, index) => {
       } else {
         page.classList.remove("active");
         navigationLinks[pageIndex].classList.remove("active");
-        // Page Navigation Fix
-const navigationLinks = document.querySelectorAll("[data-nav-link]");
-const pages = document.querySelectorAll("[data-page]");
-
-navigationLinks.forEach(link => {
-  link.addEventListener("click", () => {
-    const targetPage = link.dataset.navLink;
-
-    // Tüm sayfa ve butonlardan active class'ını kaldır
-    pages.forEach(page => page.classList.remove("active"));
-    navigationLinks.forEach(btn => btn.classList.remove("active"));
-
-    // Hedef sayfa ve butonu aktif yap
-    const targetPageElement = document.querySelector(`[data-page="${targetPage}"]`);
-    if (targetPageElement) {
-      targetPageElement.classList.add("active");
-      link.classList.add("active");
-      window.scrollTo(0, 0);
-    }
-  });
-});
       }
     });
   });
